@@ -4,7 +4,7 @@
 #include "powNum.h"
 using namespace std;
 
-#define MAX_NUM 3
+#define MAX_NUM 4
 
 int main(int argc, char *argv[]) {
     cout << "This is Demo_4 " << endl;
