@@ -1,1 +1,0 @@
-int halfNum(int num);
