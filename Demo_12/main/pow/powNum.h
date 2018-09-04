@@ -1,0 +1,1 @@
+int powNum(int num, int times);
