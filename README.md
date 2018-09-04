@@ -2,9 +2,15 @@
 
 如何使用`Cmake`编译`C++`项目的示例，参照每个`Demo`里的`CMakeLists`文件，有具体注释。
 
-编译方法：执行每个`Demo`中的`build.sh`脚本即可。以`Demo_1`为例：
+编译方法：进入到当前`Demo`的`build.sh`脚本文件所在目录，执行该脚本即可。以`Demo_1`和`Demo_8`为例：
 ```shell 
+# Demo_1 
 cd Demo_1
+sh build.sh
+
+
+# Demo_8
+cd Demo_8/main 
 sh build.sh
 ```
 
@@ -16,19 +22,19 @@ sh build.sh
 
 同一目录下编译多个文件
 
-##### Demo_5 Demo_6
+##### Demo_5 Demo_6 Demo_7
 
 包含子目录文件的编译
 
-##### Demo_7
+##### Demo_8
 
 多级目录项目中的编译
 
-##### Demo_8 
+##### Demo_9
 
 新建`build`目录存放相关的编译文件，注意执行`build.sh`脚本编译后可执行文件是在`Demo_8/main/build`目录下。
 
-##### Demo_9
+##### Demo_10
 
 指定可执行文件的生成目录。
 编译同`Demo_8`，但是可执行文件生成位置与`Demo_8`不同，`Demo_8`可执行文件是在`build`目录下，而`Demo_9`是在`main`目录下。
